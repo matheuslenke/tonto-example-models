@@ -1,0 +1,3747 @@
+{
+  "model": {
+    "contents": [
+      {
+        "contents": [
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1j5",
+            "name": "number",
+            "description": null
+          },
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1j6",
+            "name": "string",
+            "description": null
+          },
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1j7",
+            "name": "boolean",
+            "description": null
+          },
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1j8",
+            "name": "date",
+            "description": null
+          },
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1j9",
+            "name": "time",
+            "description": null
+          },
+          {
+            "stereotype": "datatype",
+            "restrictedTo": [
+              "abstract"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ja",
+            "name": "datetime",
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1j4",
+        "name": "Tonto.BasicDataTypes",
+        "description": null
+      },
+      {
+        "contents": [
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jc",
+            "name": "Object",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jd",
+            "name": "Agent",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1je",
+            "name": "Mental_Moment",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jf",
+            "name": "Intention",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jg",
+            "name": "Belief",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jh",
+            "name": "Desire",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ji",
+            "name": "Perception",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1je"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ks",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jd"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1kt",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1kr",
+            "name": "inheres_in_agent",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1kv",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k4"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1kw",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1ku",
+            "name": "is_component_part_of_complex_intention",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ky",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1kz",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1kx",
+            "name": null,
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l1",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jx"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l2",
+                "name": "subsets_inheres_in_agent",
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1l0",
+            "name": "intention_inhreres_in_trustor",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l4",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l5",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1l3",
+            "name": "hurt_by_loss_situation",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l7",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kp"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1l8",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1l6",
+            "name": "hurt_by_loss_event",
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jn"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jc"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1l9",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jn"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jd"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1la",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jo"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1je"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1lb",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1je"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jf"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1lc",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1je"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jg"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ld",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1je"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jh"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1le",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1je"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ji"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1lf",
+            "name": null,
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1jb",
+        "name": "UFOC",
+        "description": null
+      },
+      {
+        "contents": [
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jk",
+            "name": "Disposition",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lh",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1li",
+                "name": "subsets_inheres_in_substantial",
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lg",
+            "name": "disposition_inheres_in_trustee",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lk",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jn"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ll",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lj",
+            "name": "inheres_in_substantial",
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1jj",
+        "name": "UFOB",
+        "description": null
+      },
+      {
+        "contents": [
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jm",
+            "name": "Endurant",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jn",
+            "name": "Substantial",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jo",
+            "name": "Moment",
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jm"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jn"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1lm",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jm"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jo"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ln",
+            "name": null,
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1jl",
+        "name": "UFOA",
+        "description": null
+      },
+      {
+        "contents": [
+          {
+            "stereotype": "mode",
+            "restrictedTo": [
+              "extrinsic-mode",
+              "intrinsic-mode"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jq",
+            "name": "Aspectual_Belief",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jr",
+            "name": "Intention_Belief",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1js",
+            "name": "Disposition_Belief",
+            "description": null
+          },
+          {
+            "stereotype": "role",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jt",
+            "name": "Capability_Belief",
+            "description": null
+          },
+          {
+            "stereotype": "role",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ju",
+            "name": "Vulnerability_Belief",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jv",
+            "name": "Vulnerability",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jw",
+            "name": "Capability",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jx",
+            "name": "Trustor",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jy",
+            "name": "Trustee",
+            "description": null
+          },
+          {
+            "stereotype": "mode",
+            "restrictedTo": [
+              "extrinsic-mode",
+              "intrinsic-mode"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1jz",
+            "name": "Trust",
+            "description": null
+          },
+          {
+            "stereotype": "quality",
+            "restrictedTo": [
+              "quality"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k0",
+            "name": "Trust_Degree",
+            "description": null
+          },
+          {
+            "stereotype": "quality",
+            "restrictedTo": [
+              "quality"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k1",
+            "name": "Belief_Intensity",
+            "description": null
+          },
+          {
+            "stereotype": "quality",
+            "restrictedTo": [
+              "quality"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k2",
+            "name": "Performance_Level",
+            "description": null
+          },
+          {
+            "stereotype": "quality",
+            "restrictedTo": [
+              "quality"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k3",
+            "name": "Manifestation_Likelihood",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k4",
+            "name": "Complex_Intention",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k5",
+            "name": "Atomic_Intention",
+            "description": null
+          },
+          {
+            "stereotype": "category",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k6",
+            "name": "Trustworthiness_Evidence",
+            "description": null
+          },
+          {
+            "stereotype": "kind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k7",
+            "name": "Social_System",
+            "description": null
+          },
+          {
+            "stereotype": "role",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k8",
+            "name": "Social_System_Trustee",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1k9",
+            "name": "Institutionbased_Trust",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ka",
+            "name": "Agent_Trustee",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kb",
+            "name": "Social_Trust",
+            "description": null
+          },
+          {
+            "stereotype": "event",
+            "restrictedTo": [
+              "event"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kc",
+            "name": "Trustor_Action",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kd",
+            "name": "Trust_Calibration_Signal",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ke",
+            "name": "TrustWarranting_Signal",
+            "description": null
+          },
+          {
+            "stereotype": "roleMixin",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": true,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kf",
+            "name": "Uncertainty_Signal",
+            "description": null
+          },
+          {
+            "stereotype": "event",
+            "restrictedTo": [
+              "event"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kg",
+            "name": "Trustee_Action",
+            "description": null
+          },
+          {
+            "stereotype": "relator",
+            "restrictedTo": [
+              "relator"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kh",
+            "name": "Influence",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ki",
+            "name": "Trust_influence",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kj",
+            "name": "Mental_Moment_Influence",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kk",
+            "name": "Trustworthiness_Evidence_Influence",
+            "description": null
+          },
+          {
+            "stereotype": "subkind",
+            "restrictedTo": [
+              "functional-complex"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kl",
+            "name": "Trust_Calibration_Signal_Influence",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lp",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jn"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lq",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lo",
+            "name": "depends_on_substantial",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ls",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lt",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lr",
+            "name": "is_belief_part_of_trust",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lv",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jx"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lw",
+                "name": "subsets_inheres_in_agent",
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lu",
+            "name": "aspectual_belief_inheres_in_trustor",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jr"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ly",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1lz",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1lx",
+            "name": "depends_on_intention",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jr"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m1",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kb"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m2",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1m0",
+            "name": "is_belief_part_of_social_trust",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1js"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m4",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m5",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1m3",
+            "name": "depends_on_disposition",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jt"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m7",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jw"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1m8",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1m6",
+            "name": "depends_on_capability",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1ju"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ma",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jv"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mb",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1m9",
+            "name": "depends_on_vulnerability",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jx"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1md",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1me",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mc",
+            "name": "trusts",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jx"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mg",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kc"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mh",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mf",
+            "name": "performed_action",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mj",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kd"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mk",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mi",
+            "name": "emits",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mm",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kg"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mn",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1ml",
+            "name": "performed_action",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mp",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jx"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mq",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mo",
+            "name": "inheres_in_trustor",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ms",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mt",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mr",
+            "name": "depends_on_trustee",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k0"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mv",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mw",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mu",
+            "name": "inheres_in_trust",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k1"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1my",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1mz",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1mx",
+            "name": "inheres_in_aspectual_belief",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k2"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n1",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1js"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n2",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1n0",
+            "name": "inheres_in_dispositional_belief",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k3"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n4",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1js"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n5",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1n3",
+            "name": "inheres_in_dispositional_belief",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k6"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n7",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jy"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1n8",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1n6",
+            "name": "refers_to",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k6"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1na",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nb",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1n9",
+            "name": "is_about",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k9"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nd",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k8"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ne",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nc",
+            "name": "depends_on_social_system_trustee",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kb"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ng",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1ka"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nh",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nf",
+            "name": "depends_on_agent_trustee",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kc"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nj",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nk",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1ni",
+            "name": "based_on_trust",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kc"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nm",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jf"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nn",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nl",
+            "name": "motivated_by",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kc"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1np",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kn"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nq",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1no",
+            "name": "brought_about_hazardous_situation",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kd"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ns",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nt",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nr",
+            "name": "refers_to",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kg"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nv",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nw",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nu",
+            "name": "refers_to",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kg"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ny",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kn"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1nz",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1nx",
+            "name": "brought_about_hazardous_situation",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kh"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o1",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o2",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1o0",
+            "name": "influences",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1ki"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o4",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1jz"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o5",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1o3",
+            "name": "is_about_trust",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kj"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o7",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1je"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1o8",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1o6",
+            "name": "is_about_mental_moment",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kk"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1oa",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1k6"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1ob",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1o9",
+            "name": "is_about_evidence",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kl"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1od",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kd"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1oe",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1oc",
+            "name": "is_about_signal",
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jg"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jq"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1of",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jq"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jr"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1og",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jq"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1js"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oh",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1js"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jt"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oi",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1js"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ju"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oj",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jk"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jv"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ok",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jk"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jw"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ol",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jd"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jx"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1om",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jn"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jy"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1on",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jf"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k4"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oo",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jf"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k5"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1op",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jm"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k6"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oq",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jc"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k7"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1or",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jy"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k8"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1os",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k7"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k8"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ot",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jz"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1k9"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ou",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jd"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ka"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ov",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jy"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ka"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ow",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jz"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kb"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1ox",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1jm"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kd"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oy",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kd"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ke"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1oz",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kd"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kf"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1p0",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kh"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1ki"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1p1",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kh"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kj"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1p2",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kh"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kk"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1p3",
+            "name": null,
+            "description": null
+          },
+          {
+            "general": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kh"
+            },
+            "specific": {
+              "type": "Class",
+              "id": "3byrdyllht2v1kl"
+            },
+            "propertyAssignments": {},
+            "type": "Generalization",
+            "id": "3byrdyllht2v1p4",
+            "name": null,
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1jp",
+        "name": "ROT",
+        "description": null
+      },
+      {
+        "contents": [
+          {
+            "stereotype": null,
+            "restrictedTo": null,
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kn",
+            "name": "Hazardous_Situation",
+            "description": null
+          },
+          {
+            "stereotype": "event",
+            "restrictedTo": [
+              "event"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1ko",
+            "name": "Threat_Event",
+            "description": null
+          },
+          {
+            "stereotype": "event",
+            "restrictedTo": [
+              "event"
+            ],
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kp",
+            "name": "Loss_Event",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "restrictedTo": null,
+            "properties": null,
+            "literals": null,
+            "isAbstract": false,
+            "isDerived": false,
+            "isExtensional": false,
+            "isPowertype": false,
+            "order": "1",
+            "propertyAssignments": {},
+            "type": "Class",
+            "id": "3byrdyllht2v1kq",
+            "name": "Loss_Situation",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kn"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1p6",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1ko"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1p7",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1p5",
+            "name": "contributed_to_trigger_threat_event",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1ko"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1p9",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "1..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kp"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1pa",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1p8",
+            "name": "caused_loss_event",
+            "description": null
+          },
+          {
+            "stereotype": null,
+            "properties": [
+              {
+                "stereotype": null,
+                "cardinality": "0..*",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kp"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": false,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1pc",
+                "name": null,
+                "description": null
+              },
+              {
+                "stereotype": null,
+                "cardinality": "0..1",
+                "propertyType": {
+                  "type": "Class",
+                  "id": "3byrdyllht2v1kq"
+                },
+                "subsettedProperties": null,
+                "redefinedProperties": null,
+                "aggregationKind": "NONE",
+                "isDerived": false,
+                "isOrdered": false,
+                "isReadOnly": true,
+                "propertyAssignments": {},
+                "type": "Property",
+                "id": "3byrdyllht2v1pd",
+                "name": null,
+                "description": null
+              }
+            ],
+            "isAbstract": false,
+            "isDerived": false,
+            "propertyAssignments": {},
+            "type": "Relation",
+            "id": "3byrdyllht2v1pb",
+            "name": "brought_about_loss_situation",
+            "description": null
+          }
+        ],
+        "propertyAssignments": {},
+        "type": "Package",
+        "id": "3byrdyllht2v1km",
+        "name": "COVER",
+        "description": null
+      }
+    ],
+    "propertyAssignments": {},
+    "type": "Package",
+    "id": "3byrdyllht2v1gu",
+    "name": "Reference_Ontology_of_Trust",
+    "description": null
+  },
+  "diagrams": null,
+  "type": "Project",
+  "id": "3byrdyllht2v1gt",
+  "name": "Reference_Ontology_of_Trust",
+  "description": null
+}
