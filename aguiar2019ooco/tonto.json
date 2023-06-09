@@ -1,0 +1,26 @@
+{
+   "projectName": "Model",
+   "displayName": "Model project",
+   "version": "1.0.0",
+   "dependencies": {
+      "SWO": {
+         "url": "https://github.com/matheuslenke/tonto-example-models.git",
+         "version": "1.0.0",
+         "directory": "SWO"
+       },
+       "SPO": {
+         "url": "https://github.com/matheuslenke/tonto-example-models.git",
+         "version": "1.0.0",
+         "directory": "SPO"
+       }
+   },
+   "license": "MIT",
+   "outFolder": "generated",
+   "authors": [
+      {
+         "name": "Matheus Lenke Coutinho",
+         "email": "matheuslenke@gmail.com"
+      }
+   ],
+   "publisher": "Lenke"
+}
