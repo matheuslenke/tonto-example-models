@@ -1,0 +1,9 @@
+{
+  "projectName": "SPO",
+  "displayName": "SPO",
+  "publisher": "SPO",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {},
+  "outFolder": "outDirectory"
+}

@@ -1,0 +1,9 @@
+{
+  "projectName": "SWO",
+  "displayName": "SWO",
+  "publisher": "SWO",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {},
+  "outFolder": "outDirectory"
+}
