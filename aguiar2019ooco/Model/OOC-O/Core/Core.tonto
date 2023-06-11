@@ -1,48 +1,77 @@
-import Class
 import SPO
 import SWO
 
 package Core
 
-subkind ObjectOriented_Programming_Language  specializes Programming_Language
-subkind ObjectOriented_Source_Code  specializes Source_Code{
-     [0..*] -- represented_by --  [1..*]  ObjectOriented_Programming_Language
-     [0..*] -- constituted_of --  [1..*]  Physical_Module
+relation Language [1..*] -- representedIn -- [0..*] Artifact specializes ObjectOrientedProgrammingLanguage.representedBy
+relation ProgrammingLanguage [1..*] -- representedIn2 -- [0..*] SoftwareItem
+
+genset SoftwareGenset {
+  general SoftwareItem
+  specifics SoftwareSystem, Program, Code
 }
-kind Module {
-     [0..*] --  [0..1]  Module
+
+subkind ObjectOrientedProgrammingLanguage specializes ProgrammingLanguage {
+  createdDate: MyDate
+  [1..*] -- representedBy -- [0..*] ObjectOrientedSourceCode
+    inverseOf ObjectOrientedSourceCode.representedIn3
 }
-quality Name {
-     [1..1] -- characterized_by --  [1..1] ( {const } ) Named_Element
+subkind ObjectOrientedSourceCode specializes SourceCode {
+  [0..*] -- representedIn3 -- [1..*] ObjectOrientedProgrammingLanguage
+    inverseOf ObjectOrientedProgrammingLanguage.representedBy
+    
 }
-category Named_Element 
-quality Element_Visibility {
-     [0..1] -- characterized_by --  [1..1] ( {const } ) Named_Element
+
+quality Name
+
+category NamedElement {
+  [1] -- characterizedBy -- [*] Name
+  [1] -- characterizedBy2 -- [*] ElementVisibility
 }
-kind Class  specializes Named_Element, Type{
-     [1..*] --  [1..1]  Physical_Module
-     [0..*] -- organized_in --  [1..1]  Logical_Module
-     [1..1] -- contains --  [0..*]  Nesting
+
+quality ElementVisibility {
+  
 }
+
 category Member {
-     [0..*] --  [1..1]  Class
+  [0..*] <>-- [1] Class
 }
-kind Variable  specializes Named_Element
-quality Mutability {
-     [1..1] -- characterized_by --  [1..1] ( {const } ) Variable
+
+kind Method specializes Member
+kind Variable specializes NamedElement
+kind Class specializes NamedElement
+quality Mutability
+quality ValueType {
+  [0..1] -- characterizedBy4 -- [1] Variable
 }
-subkind Primitive_Type  specializes Type
-subkind Physical_Module  specializes Module
-category Type 
-quality Return_Type {
-     [0..*] -- refers_to --  [0..1]  Type
-     [0..1] -- characterized_by --  [1..1] ( {const } method_Member_Function ) Method_Member_Function
+
+subkind Attribute specializes Variable, Member
+
+quality ReturnType {
+  [0..1] -- characterizedBy3 -- [1] Method
 }
-subkind Logical_Module  specializes Module
-kind Method_Member_Function  specializes Member, Named_Element
-subkind Attribute_Member_Variable  specializes Member, Variable
-quality Value_Type {
-     [0..1] -- characterized_by --  [1..1] ( {const } ) Variable
-     [0..*] -- refers_to --  [1..1]  Type
+
+kind Types
+category Type
+subkind PrimitiveType specializes Types
+
+disjoint complete genset TypeAndPrimitiveType {
+  general Type
+  specifics PrimitiveType
 }
+
+kind Module {
+  @componentOf
+  [0..1] <>-- constitutedOf -- [0..*] Module
+}
+
+subkind PhysicalModule specializes Module {
+  [1..*] -- [0..*] ObjectOrientedSourceCode
+}
+subkind LogicalModule specializes Module {
+  name: boolean 
+  @componentOf
+  [1] -- organizedIn -- [0..*] Class
+}
+
 

@@ -1,16 +1,14 @@
 {
-   "projectName": "Model",
-   "displayName": "Model project",
+   "projectName": "aguiar2019ooco",
+   "displayName": "Aguiar 2019 OOC-O",
    "version": "1.0.0",
    "dependencies": {
       "SWO": {
          "url": "https://github.com/matheuslenke/tonto-example-models.git",
-         "version": "1.0.0",
          "directory": "SWO"
        },
        "SPO": {
          "url": "https://github.com/matheuslenke/tonto-example-models.git",
-         "version": "1.0.0",
          "directory": "SPO"
        }
    },
