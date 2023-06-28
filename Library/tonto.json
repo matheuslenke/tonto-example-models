@@ -1,0 +1,14 @@
+{
+  "projectName": "Library",
+  "displayName": "Library Model",
+  "authors": [],
+  "version": "1.0.0",
+  "outFolder": "out",
+  "license": "No License",
+  "dependencies": {
+    "WorkCollection": {
+      "url": "https://github.com/matheuslenke/tonto-example-models.git",
+      "directory": "WorkCollection"
+    }
+  }
+}
