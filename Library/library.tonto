@@ -40,7 +40,7 @@ kind Copy {
     @mediation
     [1] -- [1] ( {const } ) Renew_Copy_for_Employee
 }
-role Copy_Reservation specializes {
+role Copy_Reservation {
     @mediation
     [1] -- [1] ( {const } ) Make_Reservation_for_Student
 }
