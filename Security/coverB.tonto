@@ -1,0 +1,31 @@
+import CoverA
+
+package CoverB
+
+roleMixin RiskSubject {
+    @participation [1..*] -- [1..*] RiskExperience
+}
+@characterization relation Intention [1..*] -- [0..1] RiskSubject
+relation CoverA.ExperienceRiskAssessment [*] <>-- [1..*] Intention
+
+roleMixin ThreatCapability {
+    @characterization [1..*] -- [1] ThreatObject
+}
+relation CoverA.ExperienceRiskAssessment [*] <>-- [1..*] ThreatCapability
+
+roleMixin ThreatObject {
+    @participation [*] -- [1..*] RiskExperience
+}
+roleMixin Vulnerability {
+    @characterization [1..*] -- [0..1] ObjectAtRisk
+    @characterization [1..*] -- [0..1] RiskEnabler
+    [1] <>-- [1] CoverA.ExperienceRiskAssessment
+}
+
+roleMixin RiskEnabler {
+    @participation [*] -- [1..*] RiskExperience
+}
+
+roleMixin ObjectAtRisk {
+    @participation [0..1] -- [1..*] RiskExperience
+}
