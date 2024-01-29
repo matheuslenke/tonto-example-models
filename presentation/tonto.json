@@ -1,0 +1,15 @@
+{
+    "projectName": "University",
+    "displayName": "University Model",
+    "authors": ["Matheus Lenke Coutinho"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "publisher": "UFES",
+    "dependencies": {
+      "Library": {
+        "url": "https://github.com/matheuslenke/tonto-example-models",
+        "directory": "Library"
+      }
+    },
+    "outFolder": "out"
+  }

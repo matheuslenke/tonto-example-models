@@ -1,0 +1,19 @@
+package Person
+
+kind Person
+
+phase Child
+phase Teenager
+phase Adult
+
+disjoint complete genset PersonPhases {
+    general Person
+    specifics Child, Teenager, Adult
+}
+
+role UniversityStudent specializes Person
+role FormerStudent specializes UniversityStudent
+role ActiveStudent specializes UniversityStudent
+
+role Employee specializes Person
+role UniversityProfessor specializes Employee
