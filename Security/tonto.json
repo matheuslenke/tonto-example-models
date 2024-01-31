@@ -1,0 +1,8 @@
+{
+    "projectName": "cover",
+    "displayName": "Common Ontology of Value and Risk (COVER)",
+    "license": "MIT",
+    "publisher": "University of Twente and Accenture",
+    "dependencies": {},
+    "outFolder": "out"
+}

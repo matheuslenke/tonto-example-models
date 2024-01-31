@@ -1,0 +1,60 @@
+package CoverA
+
+// <--- Part A of COVER --->
+// Declaration of class
+quality CausalLikelihood {
+    // Internal relations or properties
+    @characterization [*] -- [1] EventType
+    @externalDependence [*] -- [1] EventType
+}
+
+quality TriggeringLikelihood {
+    @externalDependence [1..*] -- [*] EventType
+}
+
+type EventType {
+   [*] -- causation -- [*] EventType
+}
+
+event RiskEvent {
+    @instantiation [*] -- categorizes -- [1..*] EventType
+
+    @historicalDependence [*] -- causation -- [*] RiskEvent
+}
+
+event RiskExperience {
+    [1..*] <>-- [2..*] RiskEvent
+}
+
+relator RiskAssessment
+quality Risk 
+// External relation declaration
+// Tonto Autocomplete some elements
+@characterization relation Risk [1] -- [1] RiskAssessment 
+
+roleMixin RiskAssessor
+@mediation relation RiskAssessment [1..*] -- [1] RiskAssessor
+
+subkind ExperienceRiskAssessment specializes RiskAssessment {
+    @mediation [0..*] -- [1] RiskExperience
+}
+
+event ThreatEvent specializes RiskEvent {
+    @historicalDependence [1..*] -- causes -- [1..*] LossEvent
+}
+
+roleMixin ThreatObject {
+    @participation [*] -- [1..*] ThreatEvent
+}
+
+event LossEvent specializes RiskEvent
+
+roleMixin ObjectAtRisk {
+    @participation [0..1] -- [1..*] LossEvent
+}
+
+category Intention {
+    @characterization [1..*] -- [0..1] RiskAssessor
+}
+
+// <--- Part B of COVER --->
