@@ -1,0 +1,62 @@
+package SystemComponentsAndBehavior
+
+category Object
+
+roleMixin SystemEnvironmentEntity specializes Object {
+    @participation
+    [1..*] -- [*] SystemInterfaceEvent
+}
+
+category System specializes Object {
+    @material
+    [1..*] -- isExternallyConnectedTo --[*] SystemEnvironmentEntity
+
+    @participation
+    [1..*] -- [*] SystemBehavior
+
+    @participation
+    [1..*] -- [*] SystemEvent
+}
+
+relator SystemConnection
+
+phase ActiveConnection specializes SystemConnection
+phase InactiveConnection specializes SystemConnection
+
+subkind ExternalSystemConnection specializes SystemConnection {
+    @mediation
+    [1..*] -- [1] SystemEnvironmentEntity
+
+    @mediation
+    [*] -- [1] System
+}
+
+relation System [1..*] -- [*] SystemEnvironmentEntity
+
+mode SystemCapability {
+    @characterization
+    [1..*] -- [1] System
+
+    @manifestation
+    [1..*] -- [*] SystemEvent
+}
+
+kind SystemBehavior {
+    [1] -- [1..*] SystemEvent
+}
+
+datatype TimePoint
+
+event SystemEvent {
+    -- [1] TimePoint
+    -- [1] TimePoint
+}
+
+event SystemInterfaceEvent specializes SystemEvent
+
+mixin SystemComponent
+
+@componentOf
+relation System [1..*] <>-- [2..*] SystemComponent
+
+mixin Subsystem specializes System, SystemComponent

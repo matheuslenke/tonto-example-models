@@ -1,0 +1,8 @@
+{
+    "projectName": "System",
+    "displayName": "System Components And Behavior",
+    "authors": ["Giancarlo Guizzardi"],
+    "outFolder": "out",
+    "version": "1.0.0",
+    "license": "MIT"
+}
