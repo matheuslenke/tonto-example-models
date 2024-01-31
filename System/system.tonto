@@ -20,8 +20,13 @@ category System specializes Object {
 
 relator SystemConnection
 
-phase ActiveConnection specializes SystemConnection
-phase InactiveConnection specializes SystemConnection
+phase ActiveConnection
+phase InactiveConnection
+
+disjoint complete genset SystemConnections {
+    general SystemConnection
+    specifics ActiveConnection, InactiveConnection
+}
 
 subkind ExternalSystemConnection specializes SystemConnection {
     @mediation
@@ -41,15 +46,16 @@ mode SystemCapability {
     [1..*] -- [*] SystemEvent
 }
 
-kind SystemBehavior {
+process SystemBehavior {
+    @constitution
     [1] -- [1..*] SystemEvent
 }
 
 datatype TimePoint
 
 event SystemEvent {
-    -- [1] TimePoint
-    -- [1] TimePoint
+    -- [1] (begin) TimePoint 
+    -- [1] (end) TimePoint
 }
 
 event SystemInterfaceEvent specializes SystemEvent
